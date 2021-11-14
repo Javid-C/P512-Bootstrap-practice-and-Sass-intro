@@ -1,0 +1,16 @@
+$primary-color:rgb(255, 97, 97);
+$secondary-color:blue;
+$margin-value:60px;
+.box {
+    .title {
+        span {
+            color: $secondary-color;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+        h4 {
+            margin-top: $margin-value/2;
+        }
+    }
+}

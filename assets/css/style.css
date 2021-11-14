@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black
+}
+
+header nav .nav-links ul li a {
+    text-transform: lowercase;
+    font-variant: small-caps;
+    color: white;
+}
+
+header nav .nav-links ul .drdown ul {
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    width: 200px;
+    list-style: none;
+    line-height: 33px;
+    display: none;
+}
+
+header nav .nav-links ul .drdown {
+    position: relative;
+}
+
+header nav .nav-links ul .drdown ul a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav .nav-links ul .drdown:hover ul {
+    display: block;
+}
+
+#slide {
+    background-image: url(../images/slide-2.jpg);
+}
+
+#slide .about {
+    text-align: center;
+    height: 90vh;
+    color: white;
+}
+
+#about {
+    padding: 70px 0;
+}
+
+#about .image {
+    height: 400px;
+}
+
+#about .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#services {
+    padding: 70px 0px;
+}
+
+#services .item .information .title span {
+    width: 55px;
+    height: 2px;
+    background-color: green;
+    display: inline-block;
+}
+
+#services .item .information .title {
+    display: flex;
+    justify-content: center;
+}
+
+#services .item .information .title h5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services .item .information .title h5::after {
+    content: '';
+    display: block;
+    margin-top: 20px;
+    width: 55px;
+    height: 2px;
+    background-color: green;
+}
+
+#services .item {
+    padding: 20px 0;
+}
+
+#services .item .icon i {
+    box-shadow: 0px 0px 13px 3px rgba(255, 255, 0, 0.4);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+}
